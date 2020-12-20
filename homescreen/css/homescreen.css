@@ -22,7 +22,7 @@
   --h2-font-size:         32px;
   --h3-font-size:         24px;
   --p-font-size:          18px;
-  --base-font-size:       16px;
+  --base-font-size:       20px;
   --menu-font-size:       14px;
 
   --border-radius-large:  100px;
@@ -69,7 +69,8 @@
     Welcome Area section
 --------------------------------*/
 .welcome-area{
-  background-image:url('../images/main_screen.svg');
+  background-image: linear-gradient( 135deg, #56CCF2 10%, #2F80ED 100%);
+  /*background-image:url('../images/main_screen.svg');*/
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -77,9 +78,8 @@
 
 .welcome-section
 {position: relative;
-padding: 5em 0;
+padding: 8em 0;
 overflow: hidden;
-text
 }
 
 .welcome-section-text a:hover{
@@ -90,6 +90,7 @@ text
   position: relative;
   top: 1em;
   text-align: center;
+  margin: auto;
 }
 a.main-welcome-btn {
     font-size: var(--base-font-size);
@@ -109,8 +110,9 @@ a.main-welcome-btn {
 }
 
 .welcome-section-text h1 {
-    font-family: var(--base-font-family);
-    font-size: var(--h1-font-size);
+    font-family: 'Raleway', sans-serif;
+    font-size:500%;
+
 }
 .welcome-section-text p {
     font-family: var(--base-font-family);
@@ -319,6 +321,20 @@ a.main-welcome-btn {
   margin-right: 1em;
 }
 
+
+
+/*-------------------
+    SERVICES
+--------------------*/
+.white_bg{
+  padding:3em;
+}
+.fa-images ,.fa-file-alt,.fa-voicemail,.fa-play-circle{
+  color: #48B1F0;
+}
+.for_box{
+  font-family: 'Raleway', sans-serif;
+}
 /*---------------------
     FOOTER
 ----------------------*/
@@ -482,6 +498,18 @@ a.main-welcome-btn {
   .site-footer .copyright-text,.site-footer .social-icons
   {
     text-align:center
+  }
+
+  .welcome-section-text h1 {
+    font-size: 400%;
+  }
+  .welcome-section-image {
+    position: relative;
+
+    text-align: center;
+    margin: auto;
+    height:80%;
+    padding-top:2em;
   }
 }
 
