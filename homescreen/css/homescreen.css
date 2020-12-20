@@ -70,6 +70,9 @@
 --------------------------------*/
 .welcome-area{
   background-image:url('../images/main_screen.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .welcome-section
