@@ -481,6 +481,8 @@ a.main-welcome-btn {
   margin:0.5em 0;
 }
 
+
+
 /*-----------------------
     MEDIA QUERIES
 -----------------------*/
@@ -502,7 +504,7 @@ a.main-welcome-btn {
   }
 
   .welcome-section-text h1 {
-    font-size: 400%;
+    font-size: 300%;
   }
   .welcome-section-image {
     position: relative;
